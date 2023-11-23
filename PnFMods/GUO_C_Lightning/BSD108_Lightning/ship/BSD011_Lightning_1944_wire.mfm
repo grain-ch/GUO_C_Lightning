@@ -1,0 +1,10 @@
+<BSD011_Lightning_1944_wire.mfm>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_mg.dds	</Texture>
+	</property>
+</BSD011_Lightning_1944_wire.mfm>

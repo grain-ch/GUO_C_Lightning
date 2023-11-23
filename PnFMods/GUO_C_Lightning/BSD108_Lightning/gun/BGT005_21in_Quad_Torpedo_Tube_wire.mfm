@@ -1,0 +1,10 @@
+<BGT005_21in_Quad_Torpedo_Tube_wire.mfm>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube_mg.dds	</Texture>
+	</property>
+</BGT005_21in_Quad_Torpedo_Tube_wire.mfm>

@@ -1,0 +1,67 @@
+<BSD011_Lightning_1944.mfm>
+	<fx>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/ship_anim_emissive_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_ao.dds	</Texture>
+	</property>
+	<!-- <property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property> -->
+	<property>	diffuseMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_n.dds	</Texture>
+	</property>
+	<!-- <property>	g_detailAlbedoInfluence
+		<Float>	0.6000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	1.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.4000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	32.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	16.0000	</Float>
+	</property> -->
+	<property>	emissivePower
+		<Float>	0.60000	</Float>
+	</property>
+	<property>	animEmissionPower
+		<Float>	1.00000	</Float>
+	</property>
+	<property>	animScale
+		<Vector4>	0.2	0.2	1	1	</Vector4>
+	</property>
+	<property>	maskColor1
+		<Vector4>	0	0	1	1	</Vector4>
+	</property>
+	<property>	maskColor2
+		<Vector4>	0	1	1	1	</Vector4>
+	</property>
+	<property>	maskSpeed
+		<Vector4>	0.006	0	-0.8	0	</Vector4>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	250	</Int>
+	</property>
+	<property>	animMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_anim.dds	</Texture>
+	</property>
+</BSD011_Lightning_1944.mfm>
