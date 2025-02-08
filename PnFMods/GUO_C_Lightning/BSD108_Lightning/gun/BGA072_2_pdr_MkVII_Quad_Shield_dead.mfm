@@ -2,7 +2,7 @@
 	<fx>	shaders/materials/pbs/ship_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
-		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/default_ao.dds	</Texture>
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
 		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>

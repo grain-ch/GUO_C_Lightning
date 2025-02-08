@@ -1,4 +1,5 @@
 <BGA008_2_pdr_MkVIII_8barrel.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	emissivePower
@@ -28,7 +29,7 @@
 	<property>	normalMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA008_2_pdr_MkVIII_8barrel_n.dds	</Texture>
 	</property>
-<!-- 	<property>	g_detailAlbedoInfluence
+	<!-- <property>	g_detailAlbedoInfluence
 		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance

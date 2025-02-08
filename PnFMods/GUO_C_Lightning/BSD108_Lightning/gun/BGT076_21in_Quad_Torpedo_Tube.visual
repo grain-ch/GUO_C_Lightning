@@ -1,14 +1,7 @@
 <BGT076_21in_Quad_Torpedo_Tube.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	BGT005_21in_Quad_Torpedo_Tube	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,142 +9,256 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	BGT005_21in_Quad_Torpedo_Tube_wires	</identifier>
+				<identifier>	BGT005_21in_Quad_Torpedo_Tube	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	-0.0911 0.0460 -0.2163 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	-0.0417 0.0460 -0.2163 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0410 0.0460 -0.2163 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire4	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0902 0.0460 -0.2163 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_BM072_Belt	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<!-- <node>
-				<identifier>	MP_BM358_Cabin_for_BGT076	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node> -->
-			<node>
-				<identifier>	MP_BM359_Control_for_BGT076	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<!-- <node>
-				<identifier>	MP_BM509_Liferaft_type_20_10ft	</identifier>
-				<transform>
-					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
-					<row3>	0.0000 0.0712 0.2085 1.0000	</row3>
-				</transform>
-			</node> -->
-			<node>
-				<identifier>Plane</identifier>
-				<transform>
-					<row0>1.000000 0.000000 0.000000</row0>
-					<row1>0.000000 1.000000 0.000000</row1>
-					<row2>0.000000 0.000000 1.000000</row2>
-					<row3>0.000000 0.000000 0.000000</row3>
-				</transform>
+				<node>
+					<identifier>	BGT005_21in_Quad_Torpedo_Tube_wires	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0911 0.0460 -0.2162 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0417 0.0460 -0.2162 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0410 0.0460 -0.2162 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire4	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0902 0.0460 -0.2162 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_BM072_Belt	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<!-- <node>
+					<identifier>	MP_BM358_Cabin_for_BGT076	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node> -->
+				<node>
+					<identifier>	MP_BM359_Control_for_BGT076	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<!-- <node>
+					<identifier>	MP_BM509_Liferaft_type_20_10ft	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+						<row3>	0.0000 0.0712 0.2084 1.0000	</row3>
+					</transform>
+				</node> -->
+				<node>
+					<identifier>Plane</identifier>
+					<transform>
+						<row0>1.000000 0.000000 0.000000</row0>
+						<row1>0.000000 1.000000 0.000000</row1>
+						<row2>0.000000 0.000000 1.000000</row2>
+						<row3>0.000000 0.000000 0.000000</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	BGT005_21in_Quad_Torpedo_Tube	</node>
-		<geometry>
-			<vertices>	BGT005_21in_Quad_Torpedo_TubeShape.vertices	</vertices>
-			<primitive>	BGT005_21in_Quad_Torpedo_TubeShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	BGT005_21in_Quad_Torpedo_Tube_wires	</node>
-		<geometry>
-			<vertices>	BGT005_21in_Quad_Torpedo_Tube_wiresShape.vertices	</vertices>
-			<primitive>	BGT005_21in_Quad_Torpedo_Tube_wiresShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPWIRE_PBS_Gun	</identifier>
-					<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
-		<node>Plane</node>
-		<geometry>
-			<vertices>PlaneShape.vertices</vertices>
-			<primitive>PlaneShape.indices</primitive>
-			<primitiveGroup>
-				0
-				<material>
-					<identifier>TL2_SHIPMAT_PBS_GunX</identifier>
-					<mfm>PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/trop_holo.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>-0.142608 -0.179694 -0.220045</min>
-		<max>0.152824 0.111178 1.960789</max>
+		<min>	-0.1577 -0.0667 -0.2829	</min>
+		<max>	0.1568 0.1378 0.2751	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_TubeShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_Tube_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_Tube_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_Tube_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_Tube_wiresShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube_wires	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT005_21in_Quad_Torpedo_Tube_wires_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT005_21in_Quad_Torpedo_Tube_wires	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGT005_21in_Quad_Torpedo_Tube_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	PlaneShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Plane	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunX	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/trop_holo.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Plane_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Plane	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunX	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/trop_holo.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Plane_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Plane	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunX	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/trop_holo.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Plane_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Plane	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunX	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/trop_holo.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT005_21in_Quad_Torpedo_TubeShape	</renderSet>
+				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_wiresShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	6.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod1Shape	</renderSet>
+				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_wires_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	80.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </BGT076_21in_Quad_Torpedo_Tube.visual>

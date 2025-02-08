@@ -1,7 +1,6 @@
 <BSD011_Lightning_1944.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/lods/BSD011_Lightning_1944_Full_lod4	</parent>
-	<extent>	250.0000	</extent>
-	<nodefullVisual>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </BSD011_Lightning_1944.model>

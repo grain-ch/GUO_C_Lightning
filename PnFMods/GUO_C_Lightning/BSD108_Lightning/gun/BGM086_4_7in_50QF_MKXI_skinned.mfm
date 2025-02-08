@@ -1,4 +1,5 @@
 <BGM086_4_7in_50QF_MKXI_skinned.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>-->
 	<fx>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/ship_anim_material_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap

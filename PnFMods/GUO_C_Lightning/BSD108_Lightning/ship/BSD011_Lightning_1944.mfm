@@ -1,12 +1,13 @@
 <BSD011_Lightning_1944.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/ship_anim_emissive_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_ao.dds	</Texture>
 	</property>
-	<!-- <property>	detailMap
+	<!--<property>	detailMap
 		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
-	</property> -->
+	</property>-->
 	<property>	diffuseMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_a.dds	</Texture>
 	</property>
@@ -16,7 +17,7 @@
 	<property>	normalMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/BSD011_Lightning_1944_n.dds	</Texture>
 	</property>
-	<!-- <property>	g_detailAlbedoInfluence
+	<!--<property>	g_detailAlbedoInfluence
 		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
@@ -33,7 +34,7 @@
 	</property>
 	<property>	g_detailScaleV
 		<Float>	16.0000	</Float>
-	</property> -->
+	</property>-->
 	<property>	emissivePower
 		<Float>	0.60000	</Float>
 	</property>

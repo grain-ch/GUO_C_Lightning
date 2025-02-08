@@ -1,4 +1,5 @@
 <BGA004_12mm62_HI.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	emissivePower
@@ -14,11 +15,11 @@
 		<Int>	250	</Int>
 	</property>
 	<property>	ambientOcclusionMap
-		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/default_ao.dds	</Texture>
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/JGA093_12mm62_HI_ao.dds	</Texture>
 	</property>
-	<!-- <property>	detailMap
+	<!--<property>	detailMap
 		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
-	</property> -->
+	</property>-->
 	<property>	diffuseMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA004_12mm62_HI_a.dds	</Texture>
 	</property>
@@ -28,7 +29,7 @@
 	<property>	normalMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/JGA093_12mm62_HI_n.dds	</Texture>
 	</property>
-	<!-- <property>	g_detailAlbedoInfluence
+	<!--<property>	g_detailAlbedoInfluence
 		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
@@ -45,5 +46,5 @@
 	</property>
 	<property>	g_detailScaleV
 		<Float>	2.0000	</Float>
-	</property> -->
+	</property>-->
 </BGA004_12mm62_HI.mfm>

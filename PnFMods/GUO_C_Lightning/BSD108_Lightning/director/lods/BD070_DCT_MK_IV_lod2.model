@@ -1,7 +1,0 @@
-<BD070_DCT_MK_IV_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/GUO_C_Lightning/BSD108_Lightning/director/lods/BD070_DCT_MK_IV_lod3	</parent>
-	<extent>	20.0000	</extent>
-	<nodefullVisual>	PnFMods/GUO_C_Lightning/BSD108_Lightning/director/lods/BD070_DCT_MK_IV_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</BD070_DCT_MK_IV_lod2.model>

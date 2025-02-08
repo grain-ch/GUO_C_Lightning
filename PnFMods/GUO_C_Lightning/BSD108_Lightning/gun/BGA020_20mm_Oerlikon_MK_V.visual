@@ -1,14 +1,7 @@
 <BGA020_20mm_Oerlikon_MK_V.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	gun_Root	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,65 +9,173 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
+				<identifier>	gun_Root	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	-0.0105 0.1218 0.0371 1.0000	</row3>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0112 0.1218 0.0371 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>Shield</identifier>
-				<transform>
-					<row0>1.000000 0.000000 0.000000</row0>
-					<row1>0.000000 1.000000 0.000000</row1>
-					<row2>0.000000 0.000000 1.000000</row2>
-					<row3>0.000000 0.000000 0.000000</row3>
-				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	-0.0105 0.1217 0.0371 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0112 0.1217 0.0371 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>Shield</identifier>
+					<transform>
+						<row0>1.000000 0.000000 0.000000</row0>
+						<row1>0.000000 1.000000 0.000000</row1>
+						<row2>0.000000 0.000000 1.000000</row2>
+						<row3>0.000000 0.000000 0.000000</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	gun_Root	</node>
-		<geometry>
-			<vertices>	gun_RootShape.vertices	</vertices>
-			<primitive>	gun_RootShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA020_20mm_Oerlikon_MK_V.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
-		<node>Shield</node>
-		<geometry>
-			<vertices>gun_RootShieldShape.vertices</vertices>
-			<primitive>gun_RootShieldShape.indices</primitive>
-			<primitiveGroup>
-				0
-				<material>
-					<identifier>SHIPGLASS_PBS_Hull</identifier>
-					<mfm>PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0772 -0.0046 -0.0884	</min>
-		<max>	0.0779 0.2129 0.1282	</max>
+		<max>	0.0779 0.2128 0.1281	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	gun_RootShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	gun_Root	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA020_20mm_Oerlikon_MK_V.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_Root_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	gun_Root	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA020_20mm_Oerlikon_MK_V.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_Root_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	gun_Root	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA020_20mm_Oerlikon_MK_V.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_Root_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	gun_Root	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA020_20mm_Oerlikon_MK_V.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_RootShieldShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Shield	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_RootShield_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Shield	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_RootShield_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Shield	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	gun_RootShield_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Shield	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+				<mfm>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGA072_2_pdr_MkVII_Quad_Shield.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	gun_RootShape	</renderSet>
+				<renderSet>	gun_RootShieldShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	gun_Root_lod1Shape	</renderSet>
+				<renderSet>	gun_RootShield_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	18.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	gun_Root_lod2Shape	</renderSet>
+				<renderSet>	gun_RootShield_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	60.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	gun_Root_lod3Shape	</renderSet>
+				<renderSet>	gun_RootShield_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </BGA020_20mm_Oerlikon_MK_V.visual>
