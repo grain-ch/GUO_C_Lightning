@@ -1,6 +1,5 @@
 <BGM086_4_7in_50QF_MKXI_skinned.mfm>
-	<!--<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>-->
-	<fx>	PnFMods/GUO_C_Lightning/BSD108_Lightning/ship/ship_anim_material_skinned.fx	</fx>
+	<fx>	shaders/std_effects/PBS_ship_emissive_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGM086_4_7in_50QF_MKXI_ao.dds	</Texture>
@@ -35,6 +34,18 @@
 	<property>	g_detailScaleV
 		<Float>	4.0000	</Float>
 	</property> -->
+	<property>	emissivePower
+		<Float>	0.60000	</Float>
+	</property>
+	<property>	animEmissionPower
+		<Float>	1.00000	</Float>
+	</property>
+	<property>	emissionAnimationMode
+		<Int>	3	</Int>
+	</property>	
+	<property>	emissionColorMode
+		<Int>	1	</Int>
+	</property>
 	<property>	animScale
 		<Vector4>	0.2	0.2	1	1	</Vector4>
 	</property>
