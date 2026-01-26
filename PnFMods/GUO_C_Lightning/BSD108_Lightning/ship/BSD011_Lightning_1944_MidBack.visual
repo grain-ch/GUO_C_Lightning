@@ -17,6 +17,168 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
+					<identifier>	HP_BGA_10	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	-0.1930 0.1877 -3.1343 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_11	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.1930 0.1877 -3.1343 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_4	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+						<row3>	-0.2215 0.3264 -1.0664 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_5	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+						<row3>	0.2215 0.3264 -1.0664 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_6	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	-1.0000 0.0000 0.0000 0.0000	</row2>
+						<row3>	-0.1905 0.3462 -1.9751 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_7	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
+						<row3>	0.1905 0.3462 -1.9751 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_8	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	-0.1493 0.3456 -2.8668 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGA_9	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.1493 0.3456 -2.8668 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGB_1	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 1.0000 0.0000	</row0>
+						<row1>	-0.0349 0.9994 0.0000 0.0000	</row1>
+						<row2>	-0.9994 -0.0349 0.0000 0.0000	</row2>
+						<row3>	-0.2015 0.1881 -3.2329 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGB_2	</identifier>
+					<transform>
+						<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
+						<row1>	0.0349 0.9994 0.0000 0.0000	</row1>
+						<row2>	0.9994 -0.0349 0.0000 0.0000	</row2>
+						<row3>	0.2015 0.1881 -3.2329 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGB_3	</identifier>
+					<transform>
+						<row0>	-0.9557 0.0000 0.2944 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	-0.2944 0.0000 -0.9557 0.0000	</row2>
+						<row3>	-0.1125 0.1904 -3.4684 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGB_4	</identifier>
+					<transform>
+						<row0>	-0.9557 0.0000 -0.2944 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.2944 0.0000 -0.9557 0.0000	</row2>
+						<row3>	0.1125 0.1904 -3.4684 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGM_3	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.0000 0.3609 -2.5478 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGT_1	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.0000 0.2113 -0.6696 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_BGT_2	</identifier>
+					<transform>
+						<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+						<row3>	0.0000 0.2113 -1.4922 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_Flagpole	</identifier>
+					<transform>
+						<row0>	0.3874 0.0000 0.4582 0.0000	</row0>
+						<row1>	0.0000 0.6000 0.0000 0.0000	</row1>
+						<row2>	-0.4582 0.0000 0.3874 0.0000	</row2>
+						<row3>	0.0276 0.7636 -1.2418 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_Ship_death_2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 -0.5584 1.0000	</row3>
+					</transform>
+				</node>
+				<!--<node>
+					<identifier>	HP_flag_nation	</identifier>
+					<transform>
+						<row0>	0.9998 -0.0192 0.0035 0.0000	</row0>
+						<row1>	0.0192 0.9355 -0.3529 0.0000	</row1>
+						<row2>	0.0035 0.3529 0.9357 0.0000	</row2>
+						<row3>	0.0202 0.7282 -1.3414 1.0000	</row3>
+					</transform>
+				</node>-->
+				<node>
 					<identifier>	MidBack_Net	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>

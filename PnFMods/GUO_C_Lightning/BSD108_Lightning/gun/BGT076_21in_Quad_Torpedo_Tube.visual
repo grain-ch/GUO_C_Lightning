@@ -62,42 +62,6 @@
 					</transform>
 				</node>
 				<node>
-					<identifier>	MP_BM072_Belt	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-				<!-- <node>
-					<identifier>	MP_BM358_Cabin_for_BGT076	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node> -->
-				<node>
-					<identifier>	MP_BM359_Control_for_BGT076	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-				<!-- <node>
-					<identifier>	MP_BM509_Liferaft_type_20_10ft	</identifier>
-					<transform>
-						<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	1.0000 0.0000 0.0000 0.0000	</row2>
-						<row3>	0.0000 0.0712 0.2084 1.0000	</row3>
-					</transform>
-				</node> -->
-				<node>
 					<identifier>Plane</identifier>
 					<transform>
 						<row0>1.000000 0.000000 0.000000</row0>
@@ -236,6 +200,7 @@
 			<renderSets>
 				<renderSet>	BGT005_21in_Quad_Torpedo_TubeShape	</renderSet>
 				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_wiresShape	</renderSet>
+				<renderSet>	PlaneShape	</renderSet>
 			</renderSets>
 		</lod>
 		<lod>
@@ -244,6 +209,7 @@
 			<renderSets>
 				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod1Shape	</renderSet>
 				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_wires_lod1Shape	</renderSet>
+				<renderSet>	Plane_lod1Shape	</renderSet>
 			</renderSets>
 		</lod>
 		<lod>
@@ -251,6 +217,7 @@
 			<castsShadow>	true	</castsShadow>
 			<renderSets>
 				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod2Shape	</renderSet>
+				<renderSet>	Plane_lod2Shape	</renderSet>
 			</renderSets>
 		</lod>
 		<lod>
@@ -258,6 +225,7 @@
 			<castsShadow>	false	</castsShadow>
 			<renderSets>
 				<renderSet>	BGT005_21in_Quad_Torpedo_Tube_lod3Shape	</renderSet>
+				<renderSet>	Plane_lod3Shape	</renderSet>
 			</renderSets>
 		</lod>
 	</lods>

@@ -4,9 +4,9 @@
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGM086_4_7in_50QF_MKXI_ao.dds	</Texture>
 	</property>
-	<!-- <property>	detailMap
-		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
-	</property> -->
+	<!--<property>	detailMap
+		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/ship_atlas_detail.dds	</Texture>
+	</property>-->
 	<property>	diffuseMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGM086_4_7in_50QF_MKXI_a.dds	</Texture>
 	</property>
@@ -16,7 +16,7 @@
 	<property>	normalMap
 		<Texture>	PnFMods/GUO_C_Lightning/BSD108_Lightning/gun/BGM086_4_7in_50QF_MKXI_n.dds	</Texture>
 	</property>
-	<!-- <property>	g_detailAlbedoInfluence
+<!--	<property>	g_detailAlbedoInfluence
 		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
@@ -33,8 +33,8 @@
 	</property>
 	<property>	g_detailScaleV
 		<Float>	4.0000	</Float>
-	</property> -->
-	<property>	emissivePower
+	</property>-->
+<property>	emissivePower
 		<Float>	0.60000	</Float>
 	</property>
 	<property>	animEmissionPower
